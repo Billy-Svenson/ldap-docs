@@ -49,7 +49,7 @@ ldapadd -x -D cn=admin,dc=bilguun,dc=com -W -f group.ldif
 slappasswd
 New password: 0000
 Re-enter new password: 0000
-{SSHA}TXuTaHhJ0PHX3l5zkUC1AqS6Hth0XaYh
+{SSHA}...
 
 # create a file named user.ldif
 sudo nano /etc/ldap/user.ldif
@@ -65,7 +65,7 @@ cn: Bilguun Jargalsaikhan
 displayName: Bilguun J 
 uidNumber: 10000
 gidNumber: 5000
-userPassword: {SSHA}TXuTaHhJ0PHX3l5zkUC1AqS6Hth0XaYh 
+userPassword: {SSHA}...
 gecos: Bilguun Jargalsaikhan 
 loginShell: /bin/bash
 homeDirectory: /home/jbilguun
