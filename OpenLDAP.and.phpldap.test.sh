@@ -1,5 +1,5 @@
 #!/bin/sh
-echo
+echo ggwp
 exit 1
 
-# 
+# my first commit
